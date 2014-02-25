@@ -1,0 +1,17 @@
+{
+    "require": {
+        "silex/silex": "1.*",
+        "monolog/monolog": "1.*",
+        "twig/twig": "1.*",
+        "j7mbo/twitter-api-php": "dev-master",
+        "twitter/bootstrap": "3.*",
+        "swiftmailer/swiftmailer": "5.*",
+        "lichtner/fluentpdo": "dev-master",
+        "symfony/security": "~2.3"
+    },
+    "autoload": {
+        "psr-0": {
+            "Twert\\": "src/"
+        }
+    }
+}

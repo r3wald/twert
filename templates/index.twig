@@ -1,0 +1,14 @@
+{%extends "_layout.twig"%}
+
+{%block content%}
+{% for tweet in tweets %}
+    <div class="well">
+        {{ tweet.text|raw }}
+    </div>
+{% endfor %}
+    <hr>
+    <div class="well">
+        {{ dump(tweets) }}
+    </div>
+
+{% endblock %}

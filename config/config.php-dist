@@ -1,0 +1,17 @@
+<?php
+
+/* @var $app \Silex\Application */
+
+$app['config'] = array(
+
+    'database.dsn' => 'sqlite:../var/database/database.sqlite',
+    'database.username' => '',
+    'database.password' => '',
+
+    'twitter' => array(
+        'consumer_key' => '',
+        'consumer_secret' => '',
+        'oauth_access_token' => '',
+        'oauth_access_token_secret' => ''
+    )
+);
